@@ -1,0 +1,84 @@
+#welcome-section{
+    background-color:lightgreen;
+    color:blue;
+    width:100%;
+    text-align:center;
+  }
+  .link{
+    border:3px solid lightgreen;
+    width:30%;
+    text-align:center;
+  }
+  nav{
+    display:flex;
+    height:5%;
+    color:blue;
+    top:0;
+    font-size:18px;
+    width:100%;
+   position:fixed;
+  background-color:orange;
+  border-bottom:blue;
+  }
+  .link:hover{
+    width:40%;
+    color:orange;
+    background-color:lightgreen;
+    cursor: pointer;
+  }
+  main h2{
+    text-align:center;
+  }
+  main{
+    text-align:left;
+    background-color:lightgreen;
+  }
+  #about_me .imp{
+    font-size:20;
+    color:blue;
+  }
+  
+  #about_me{
+    background-color:orange;
+  }
+  #projects{
+    background-color:lightgreen;
+  }
+  #projects .imp{
+    font-size:20px;
+    color:orange;
+  }
+  
+  .project-tile{
+    text-align:center;
+    font-family:arial;
+    font-size:25;
+    border:3px solid orange;
+    background-color:blue;
+    width:560px;
+    float:center;
+  }
+  
+  footer{
+    background-color:black;
+    color:orange;
+  }
+  
+  footer img{
+    width:10px;
+    height:10px;
+  }
+  
+  footer a{
+    color:inherit;
+  }
+  
+  #black{
+    background-color:white;
+  }
+  
+  @media only screen and (max-width: 2000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
